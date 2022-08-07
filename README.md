@@ -1,2 +1,5 @@
-# Study
-create a way to make me outstanding
+# basic language Study
+- c/c++
+- python
+- java
+- ......
