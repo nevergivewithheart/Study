@@ -1,5 +1,6 @@
 # basic language Study
-- c/c++
-- python
-- java
+- C/C++
+- Python
+- Java
+- Go
 - ......
