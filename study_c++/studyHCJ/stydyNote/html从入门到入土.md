@@ -52,7 +52,7 @@ typora-root-url: D:\CodeDB\studyDB\syntex-study\studyHCJ\stydyNote
 
 - titile标签的唯一作用就是给页面添加标题
 
-<img src=".\标题与段落.png" alt="标题与段落" style="zoom:60%;" />
+<img src="..\src\标题与段落.png" alt="标题与段落" style="zoom:60%;" />
 
 ##### 1.1.52 meta标签
 
@@ -252,6 +252,8 @@ A-->F[特殊符号]
     </body>
 </html>
 ```
+- br与p标签之间的区别：
+  <img src="../src/br和p的区别.png" alt="br与p标签" style="zoom:60%;">
 
 ### 2.4 文本标签
 
