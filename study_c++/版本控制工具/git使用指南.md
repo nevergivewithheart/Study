@@ -1,5 +1,5 @@
 # git使用指南
-
+![git 工作流程](../src/git%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B.png)
 ## 一、Git的安装与常用命令
 
 ## 1.1 	Git环境配置
@@ -61,20 +61,43 @@ git config --global user.email "****"
 
 ## 1.2 	获取本地仓库
 
-
+   1. 初始化本地仓库
+      - git init
+      - 创建成功可以看到隐藏的.git目录
 
 ## 1.3	 基础操作指令
-
+```mermaid
+graph LR
+a[工作区]--git add-->b[暂存区]--git commit-->c[仓库]
+```
 ### 1.3.1	查看修改状态（status）
+   - git status
+      - 作用：查看修改的状态（暂存区、工作区）
 
 ### 1.3.2	 添加工作区到暂存区(add)
-
+   - 命令形式： git add  单个文件或者通配符
 ### 1.3.3	 提交暂存区到本地仓库
-
+   1. git stash
+      - 暂存 
+      - git stash  list ：查看暂存列表
+      - git stash  pop  ：将暂存内容弹出到工作区
+      - git stash  drop ：丢掉暂存内容
+   2. git add  文件路径
+      - 将文件加到暂存区
 ### 1.3.4	 查看提交日志（log）
-
+ - git log
+   - 作用：查看提交记录
+   - 命令形式： git log [option]
+      - --all 显示所有分支
+      - --pretty=oneline  将提交信息作为一行显示
+      - --abbrev-commit   使得输出的commit简短
+      - --graph  以图的形式
 ### 1.3.5	 版本回退
-
+   - 命令形式：git  reset 参数  commitID
+   - git commit --hard  commitId
+      - 直接回退
+   - git  reset commitiD
+      - 取消commit，将修改的内容保存到工作区中
 ### 1.3.6	添加文件至忽略列表
 
 
