@@ -123,4 +123,4 @@ ldd main
 #LD_LIBRARY_PATH：这个环境变量指示动态链接器可以装载动态库的路径
 export LD_LIBRARY_PATH=./
 ```
-//TODO:库的命名规范
+库的命名规范在其他笔记中添加
